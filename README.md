@@ -1,16 +1,31 @@
-# React + Vite
+# Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+My personal portfolio website showcasing my projects, technical skills, experience, professional journey, and learn about me as a Software Engineering student.
 
-Currently, two official plugins are available:
+## About
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This portfolio serves as a central place to learn more about me, explore my projects, and view my technical experience. It highlights the work I've built, the technologies I've learned, and the experiences that have shaped my growth as a developer.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Responsive design for desktop and mobile devices
+* Project showcase with links to live demos and source code
+* Skills and technologies section
+* Experience and education overview
+* Contact form for professional inquiries
+* Smooth navigation and modern UI
 
-## Expanding the ESLint configuration
+## Built With
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React
+* JavaScript
+* HTML5
+* CSS3
+
+## Live Website
+
+
+## Author
+
+Tony Dang - Software Engineering Student focused on backend and full-stack development.
+
