@@ -1,6 +1,6 @@
 import {useEffect, useState, useRef} from "react"
 
-function useInView(options ={}) {
+function useInView(options = {}) {
     const ref = useRef(null)
     const [isVisible, setIsVisible] = useState(false)
 
@@ -13,7 +13,7 @@ function useInView(options ={}) {
         }, options)
 
         if (ref.current) {
-            observer.observe(ref.current)
+            observer.observe(ref.current)   
         }
 
         return () => observer.disconnect()
