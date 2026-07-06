@@ -1,7 +1,13 @@
+import Navbar from './components/Navbar'
+import Hero from './components/Hero'
+import Projects from './components/Projects'
+
 function App(){
   return (
     <div>
-      <h1>My Portfolio</h1>
+      <Navbar />
+      <Hero />
+      <Projects />
     </div>
   )
 }

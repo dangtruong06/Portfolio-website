@@ -26,5 +26,6 @@ export const projects = [
         live: null,
         accent: "#86efac",
       },
+      
     ]
     
