@@ -13,6 +13,13 @@ export const experience = [
         date: 'Oct 2025 - May 2026',
         accent: "#c4b5fd",
     },
+    {
+        id:3,
+        role:'Coding Instructor',
+        company:'Code Ninjas',
+        date: 'May 2025 - June 2026',
+        accent: "#fce7f3",
+    },
 
 
 ]

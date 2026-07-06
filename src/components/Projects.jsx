@@ -3,7 +3,7 @@ import ProjectCard from './ProjectCard'
 import { projects } from '../data/projects'
 
 function Projects() {   
-  const [ref, isVisible] = useInView({ threshold: 0.1 })
+  const [ref, isVisible] = useInView({ threshold: 0.3 })
 
   return (
     <section id="projects" ref={ref} className={`projects fade-up ${isVisible ? 'visible' : ''}`}>

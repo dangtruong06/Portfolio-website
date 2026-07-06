@@ -261,3 +261,110 @@ body {
 .project-link:hover {
   opacity: 0.7;
 }
+
+/* EXPERIENCE */
+.experience {
+  padding: 80px 48px;
+  background: #faf9ff;
+  border-top: 0.5px solid #f0eeff;
+}
+.experience-inner {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 64px;
+  align-items: start;
+}
+
+.experience-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.experience-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 24px 0;
+  border-bottom: 0.5px solid var(--border);
+}
+
+.experience-item:last-child {
+  border-bottom: none;
+}
+
+.exp-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-top: 5px;
+  flex-shrink: 0;
+}
+
+.exp-role {
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--text-primary);
+  margin-bottom: 4px;
+}
+
+.exp-company {
+  font-size: 14px;
+  color: var(--accent);
+  margin-bottom: 4px;
+}
+
+.exp-date {
+  font-size: 13px;
+  color: var(--text-secondary);
+}
+
+/* CONTACT SECTION */
+.contact {
+  padding: 70px;
+  background: var(--white);
+  border-top: 0.5px solid var(--border);
+  display:flex;
+  justify-content: center;
+}
+
+.contact-inner {
+  max-width: 480px;
+}
+
+.contact h2 {
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+.contact p {
+  font-size: 16px;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  margin-bottom: 32px;
+}
+
+.contact-links {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.contact-pill {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  border: 0.5px solid var(--border);
+  border-radius: 20px;
+  font-size: 14px;
+  color: var(--text-primary);
+  background: var(--white);
+  transition: border-color 0.2s ease, color 0.2s ease;
+}
+
+.contact-pill:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
