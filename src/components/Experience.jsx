@@ -9,7 +9,7 @@ function Experience(){
             <div className="experience-inner">
                 <div className="section-header">
                 <div className="section-label">background</div>
-                <h2>Experience</h2>
+                <h2>Experience & Certifications</h2>
                 <p>Where I've been.</p>
                 </div>
                 <div className="experience-list">

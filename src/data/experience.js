@@ -14,12 +14,22 @@ export const experience = [
         accent: "#c4b5fd",
     },
     {
+        id: 4,
+        role: "Software Engineering Track",
+        company: "Google Workplace Mentoring Certification",
+        date: "2026",
+        accent: "#fcd34d",
+    },
+    {
         id:3,
         role:'Coding Instructor',
         company:'Code Ninjas',
         date: 'May 2025 - June 2026',
         accent: "#fce7f3",
     },
+
+
+    
 
 
 ]
