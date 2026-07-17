@@ -1,17 +1,15 @@
-import Navbar from './components/Navbar'
-import Hero from './components/Hero'
-import Projects from './components/Projects'
-import Experience from './components/Experience'
-import Contact from './components/Contact'
+import Home from './pages/Home'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 function App(){
   return (
     <div>
-      <Navbar />
-      <Hero />
-      <Experience/>
-      <Projects />
-      <Contact />
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<Home />} />
+        </Routes>
+      
+      </BrowserRouter>
 
     </div>
   )
