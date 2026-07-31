@@ -11,7 +11,7 @@ function Hero() {
         <p>Currently focusing on backend architecture, scalable web systems, and building robust web apps and REST APIs</p>
         <div className="hero-buttons">
           <a href="#projects" className="btn-primary">View projects</a>
-          <a href="/resume.pdf" className="btn-secondary" target="_blank">Resume ↗</a>
+          <a href="/tony's_resume.pdf" className="btn-secondary" target="_blank">Resume ↗</a>
         </div>
         <div className="hero-chips">
           <span className="chip chip-purple">Python</span>
