@@ -7,14 +7,7 @@ export const experience = [
         accent: "#93c5fd",
     },
     {
-        id:2,
-        role:'Software Engineering Mentee',
-        company:'Google x Big Brothers Big Sisters of Orange County',
-        date: 'Oct 2025 - May 2026',
-        accent: "#c4b5fd",
-    },
-    {
-        id: 4,
+        id: 2,
         role: "Software Engineering Track",
         company: "Google Workplace Mentoring Certification",
         date: "2026",

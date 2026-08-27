@@ -9,8 +9,8 @@ function Home(){
     <div>
       <Navbar />
       <Hero />
-      <Experience/>
       <Projects />
+      <Experience/>
       <Contact />
 
     </div>
