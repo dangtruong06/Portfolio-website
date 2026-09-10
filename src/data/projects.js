@@ -18,6 +18,15 @@ export const projects = [
         accent: "#c4b5fd",
     },
     {
+      id: "cacheproxy",
+      name: "Caching Proxy CLI",
+      description: "TCP caching proxy in Python with sockets, handling client connections, request forwarding, response caching, and origin server communication.",
+      tech: ["Python", "Socket Programming", "Networking"],
+      github: "https://github.com/dangtruong06/Caching-Proxy",
+      live: null,
+      accent: "#6ee7b7",
+    },
+    {
         id: "mixtape",
         name: "Mixtape - Playlist Library",
         description: "A command line REPL that manages song library that supports add/play/remove songs and playlists with hand-rolled linked lists and manual memory management.",
@@ -26,15 +35,7 @@ export const projects = [
         live: null,
         accent: "#93c5fd",
       },
-      {
-        id: "cacheproxy",
-        name: "Caching Proxy CLI",
-        description: "TCP caching proxy in Python with sockets, handling client connections, request forwarding, response caching, and origin server communication.",
-        tech: ["Python", "Socket Programming", "Networking"],
-        github: "https://github.com/dangtruong06/Caching-Proxy",
-        live: null,
-        accent: "#6ee7b7",
-      },
+
         
       
       

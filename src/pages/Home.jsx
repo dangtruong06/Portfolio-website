@@ -3,6 +3,7 @@ import Hero from '../components/Hero'
 import Projects from '../components/Projects'
 import Experience from '../components/Experience'
 import Contact from '../components/Contact'
+import TechStack from '../components/Tech'
 
 function Home(){
   return (
@@ -10,6 +11,7 @@ function Home(){
       <Navbar />
       <Hero />
       <Projects />
+      <TechStack />
       <Experience/>
       <Contact />
 

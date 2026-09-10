@@ -13,13 +13,6 @@ function Hero() {
           <a href="#projects" className="btn-primary">View projects</a>
           <a href="/tony's-resume.pdf" className="btn-secondary" target="_blank">Resume ↗</a>
         </div>
-        <div className="hero-chips">
-          <span className="chip chip-purple">Python</span>
-          <span className="chip chip-blue">Flask</span>
-          <span className="chip chip-green">PostgreSQL</span>
-          <span className="chip chip-blue">React</span>
-          <span className="chip chip-pink">Git/Github</span>
-        </div>
       </div>
     </section>
   )

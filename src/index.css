@@ -155,18 +155,6 @@ body {
   background: var(--accent-light);
 }
 
-.hero-chips {
-  display: flex;
-  gap: 8px;
-  flex-wrap: wrap;
-}
-
-.chip {
-  font-size: 12px;
-  padding: 4px 12px;
-  border-radius: 20px;
-}
-
 .chip-purple { background: #241f3d; color: #b3a6ff; }
 .chip-blue   { background: #16253d; color: #7cc0ff; }
 .chip-green  { background: #16302a; color: #6ee7b7; }
@@ -402,4 +390,72 @@ body {
 .contact-pill:hover {
   border-color: var(--accent);
   color: var(--accent);
+}
+/* TECH STACK */
+.tech-stack {
+  padding: 80px 48px;
+  background: var(--bg);
+}
+
+.tech-stack-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+@media (max-width: 900px) {
+  .tech-stack-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .tech-stack-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.tech-card {
+  background: var(--white);
+  border: 0.5px solid var(--border);
+  border-radius: 12px;
+  padding: 24px;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.tech-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(124, 140, 255, 0.4);
+}
+
+.tech-card-title {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--text-primary);
+  margin-bottom: 16px;
+}
+
+.tech-card-icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tech-icon-box {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  background: var(--accent-light);
+  border: 0.5px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-secondary);
+  transition: transform 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+.tech-icon-box:hover {
+  transform: translateY(-3px);
+  color: var(--accent);
+  border-color: rgba(124, 140, 255, 0.4);
 }
