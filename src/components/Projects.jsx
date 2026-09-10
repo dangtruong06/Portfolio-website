@@ -9,7 +9,7 @@ function Projects() {
     <section id="projects" ref={ref} className={`projects fade-up ${isVisible ? 'visible' : ''}`}>
       <div className="section-header section-header-row">
         <div>
-          <div className="section-label">work</div>
+          <div className="section-label">featured projects</div>
           <h2>Projects</h2>
           <p>Things I've built.</p>
         </div>

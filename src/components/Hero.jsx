@@ -6,12 +6,12 @@ function Hero() {
   return (
     <section ref={ref} className={`hero fade-up ${isVisible ? 'visible' : ''}`}>
       <div className="hero-content">
-        <div className="hero-tag">open to internships</div>
+        <div className="hero-tag">open to work</div>
         <h1>Hi, I'm <span className="accent">Tony</span> —<br />a software engineering student.</h1>
-        <p>Currently focusing on backend architecture, scalable web systems, and building robust web apps and REST APIs</p>
+        <p>Highly interested in backend engineering, infrastructure, and cloud technologies.</p>
         <div className="hero-buttons">
           <a href="#projects" className="btn-primary">View projects</a>
-          <a href="/tony's_resume.pdf" className="btn-secondary" target="_blank">Resume ↗</a>
+          <a href="/tony's-resume.pdf" className="btn-secondary" target="_blank">Resume ↗</a>
         </div>
         <div className="hero-chips">
           <span className="chip chip-purple">Python</span>
